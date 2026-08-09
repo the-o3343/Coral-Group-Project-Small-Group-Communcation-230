@@ -58,6 +58,28 @@ body{
     color: white;
 }
 
+.image_container{
+    position: relative;
+}
+
+.image_container img{
+    filter: brightness(0.5);
+}
+.image_text{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(230, 237, 241);
+    text-align: center;
+}
+
+.image_text.about_us{
+    top: 25%;
+    left: 50%;
+}
+
+
 
 
 
@@ -75,4 +97,20 @@ body{
     .header_link_item {
         padding: 10px;
     }
+
+    .image_text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(230, 237, 241);
+    text-align: center;
+    font-size: 24px;
+}
+
+.image_text.about_us{
+    top: 45%;
+    left: 50%;
+    font-size: 24px;
+}
 }
