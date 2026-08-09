@@ -19,9 +19,6 @@ body{
 }
 
 
-
-
-
 /* logo of the site */
 .header_logo{
     display: block;
@@ -36,26 +33,33 @@ body{
     margin-left: auto;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 
 /* the link itself */
 .header_link_item{
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color:rgb(255, 170, 59);
     font-weight: bold;
+    transition: background-color 0.2s ease-in-out,
+                color 0.2s ease-in-out,
+                border-radius 0.2s ease-in-out;
 }
 
-.header_link_item:hover,
+.header_link_item:hover{
+    background-color: black;
+    border-radius: 10%;
+    color: yellow;
+}
 .header_link_item:focus,
 .header_link_item.active {
     color: white;
 }
 
-main {
-    padding: 30px;
-}
+
+
 
 @media (max-width: 650px) {
     .header_menu {
