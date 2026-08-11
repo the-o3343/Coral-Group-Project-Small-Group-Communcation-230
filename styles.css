@@ -80,22 +80,12 @@ main{
     text-align: center;
 } 
 
-.image_background{
-    position: relative;
-}
-.form_container{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    min-width: 720px;
-    max-height: 720px ;
-    transform: translate(-50%, -50%);
-}
-/* .image_text.about_us{
+
+.image_text.about_us{
     top: 25%;
     left: 30%;
     max-width: 300px;
-} */
+}
 
 .image_text h1, 
 .image_text p {
